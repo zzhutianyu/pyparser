@@ -8,4 +8,4 @@ class And(Expression):
         self._right = right
 
     def expression(self) -> str:
-        return f"{self._left.expression()} -> {self._right.expression()}"
+        return f"{self._left.expression()} and test {self._right.expression()}"

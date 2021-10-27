@@ -3,6 +3,9 @@ from parser.state import State
 
 
 class WhiteSpace(Parser):
+    """
+
+    """
 
     def parse(self, s: State):
         space = s.next()

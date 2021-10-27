@@ -6,7 +6,6 @@ from parser.state import State
 
 
 class Parser(abc.ABC):
-
     @abc.abstractmethod
     def parse(self, s: State):
         pass
